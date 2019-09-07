@@ -8,7 +8,6 @@ class List extends Component {
       return (
         <ItemGroups
           featureName={feature}
-          features={this.props.features}
           onChange={this.props.onChange}
           stateChanger={this.props.stateChanger}
           options={this.props.features[feature]}

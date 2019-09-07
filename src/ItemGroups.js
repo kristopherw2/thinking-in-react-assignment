@@ -9,7 +9,6 @@ class ItemGroups extends Component {
       return (
         <Items
           item={item}
-          features={this.props.features}
           itemHash={itemHash}
           name={item.name}
           onChange={this.props.onChange}

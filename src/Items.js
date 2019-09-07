@@ -8,7 +8,6 @@ const USCurrencyFormat = new Intl.NumberFormat("en-US", {
 
 class Items extends Component {
   render() {
-    console.log(this.props.stateChanger)
     return (
       <div key={this.props.featureHashkey} className='feature__item'>
         <input
